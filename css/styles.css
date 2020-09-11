@@ -68,7 +68,13 @@ hr {
 	border-radius: 40%;
 	background-color: #eaf6f6;
 	float: left;
+	transition: all ease 500ms;
 	
+}
+
+.img-html:hover {
+	transform: scale(1.25);
+	opacity: 0.7;
 }
 
 .img-css {
@@ -80,6 +86,12 @@ hr {
 	background-color: #eaf6f6;
 	float: right;
 	clear: left;
+	transition: all ease 500ms;
+}
+
+.img-css:hover {
+	transform: scale(1.25);
+	opacity: 0.7;
 }
 
 .img-javascript {
@@ -90,6 +102,12 @@ hr {
 	border-radius: 40%;
 	background-color: #eaf6f6;
 	float: left;
+	transition: all ease 500ms;
+}
+
+.img-javascript:hover {
+	transform: scale(1.25);
+	opacity: 0.7;
 }
 
 a {
@@ -106,6 +124,12 @@ p {
 	margin: 20px 10px;
 	padding-top: 20px;
 	vertical-align: middle;
+	transition: all ease 500ms;
+}
+
+.icons:hover {
+	transform: scale(1.25);
+	opacity: 0.7;
 }
 
 .top-container {
